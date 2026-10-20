@@ -1,0 +1,39 @@
+# ============ 依赖 ============
+node_modules/
+# vendored Python 环境 (yt-dlp / PyObjC)，用 pip 自行安装
+.tools/py/
+__pycache__/
+*.pyc
+
+# ============ 版权内容：不入库，请自行准备（见 README） ============
+# YOASOBI 官方 MV / 歌曲 / 歌词 srt，及 Live2D 模型「DS鲸鱼娘」(CC BY-NC-SA 4.0)
+assets/music/
+# 日文原词相关文本
+assets/lyrics/歌词_*.txt
+# 歌曲音频（渲染输入，需自行放置 song.mp3）
+mv/public/audio/
+# Live2D 模型渲染帧序列（模型的演绎作品，且体积极大）
+mv/public/l2d/
+# Live2D Cubism Core，Live2D Inc. 专有许可，请从官网获取
+live2d-render/vendor/
+# 官方 MV 截图等第三方参考素材
+gen/ref/
+# 基于 Live2D 模型形象（CC BY-NC-SA 4.0）生成的角色图，属演绎作品
+gen/g0/*.png
+gen/m1/*.png
+mv/public/img/
+# 含日文原词，由 tools/build_lyrics.py 重新生成
+mv/src/data/lyrics.json
+
+# ============ 生成产物 / 中间产物 ============
+# 渲染输出与校样
+out/
+# OCR 中间产物
+.work/
+# codex 运行日志（含本机路径 / session id）
+*.log
+# 由 tools/analyze_audio.py 重新生成
+mv/src/data/beats.json
+
+# ============ 系统杂项 ============
+.DS_Store

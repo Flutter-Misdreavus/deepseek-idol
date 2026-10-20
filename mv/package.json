@@ -1,0 +1,33 @@
+{
+  "name": "deepseek-idol-mv",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts",
+    "still": "remotion still src/index.ts"
+  },
+  "dependencies": {
+    "@fontsource/dela-gothic-one": "5.3.0",
+    "@fontsource/hachi-maru-pop": "5.3.0",
+    "@fontsource/m-plus-rounded-1c": "5.3.0",
+    "@fontsource/noto-sans-sc": "5.3.1",
+    "@fontsource/noto-serif-sc": "5.3.0",
+    "@fontsource/rampart-one": "5.3.1",
+    "@fontsource/yomogi": "5.3.0",
+    "@fontsource/zcool-kuaile": "5.3.0",
+    "@fontsource/zen-old-mincho": "5.3.1",
+    "@remotion/cli": "4.0.535",
+    "@remotion/noise": "4.0.535",
+    "@remotion/paths": "4.0.535",
+    "@remotion/shapes": "4.0.535",
+    "@remotion/transitions": "4.0.535",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "remotion": "4.0.535"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.12",
+    "typescript": "5.9.3"
+  }
+}

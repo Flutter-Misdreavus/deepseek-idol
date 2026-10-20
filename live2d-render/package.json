@@ -1,0 +1,11 @@
+{
+  "name": "live2d-render",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "esbuild": "0.24.2",
+    "pixi-live2d-display": "0.4.0",
+    "pixi.js": "6.5.10",
+    "puppeteer": "24.10.0"
+  }
+}
