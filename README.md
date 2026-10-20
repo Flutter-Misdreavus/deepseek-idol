@@ -7,6 +7,8 @@
 
 **[观看成品 MV：【我推的DeepSeek】アイドル/MV（B 站 BV1CNJv6sEez）](https://www.bilibili.com/video/BV1CNJv6sEez)**
 
+也可在 [Releases](https://github.com/Flutter-Misdreavus/deepseek-idol/releases) 下载成片 `final.mp4`。
+
 > ⚠️ **声明**：本项目为非营利粉丝二次创作。歌曲《アイドル》版权归 YOASOBI / Sony Music 所有；
 > Live2D 模型「DS鲸鱼娘」由 B 站 @氵六青 无偿分享（CC BY-NC-SA 4.0，形象版权 @上善无形 与 @ZipZipPin）。
 > **本仓库不包含上述任何版权素材**，请按下文自行准备，并遵守各自的授权条款，请勿商用。
